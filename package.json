@@ -1,0 +1,26 @@
+{
+  "name": "mq-microfront-lit-vite",
+  "main": "dist/mq-microfront-lit-vite.js",
+  "module": "dist/mq-microfront-lit-vite.js",
+  "private": false,
+  "version": "0.0.2",
+  "type": "module",
+  "exports": {
+    ".": "./dist/mq-microfront-lit-vite.js"
+  },
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "lit": "^3.1.4"
+  },
+  "devDependencies": {
+    "typescript": "^5.2.2",
+    "vite": "^5.3.1"
+  }
+}
